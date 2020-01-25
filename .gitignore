@@ -18,3 +18,10 @@
 
 # Ignore application secrets.
 /config/application.secrets.yml
+
+#Ignore generated data
+judge_data/contests
+judge_data/users
+public/system
+public/assets
+shared
