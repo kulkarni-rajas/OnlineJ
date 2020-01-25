@@ -29,12 +29,15 @@ To start a constest on the app, first a setter has to be made. Only a admin can 
 
 Note: When creating a language make sure to use the name provided by the codemirror modes E.g for C language.name="text/x-csrc", the language code could be the language name we generally use like C/C++, JAVA
 
+> For Deployemnt read [deployment guide](.deploy/DEPLOY.md) 
 
-## Updates
+## Changelog
 * Changed Ruby Version to 2.6.5
 * run `bundle update rails`
 * run `gem install ice_cube`
 * Changed occurances of Fixnum to Integer
 * Changed bundler to 2.1.4 using the following two commands
-    1.`gem install bundler`
-    2.`bundle update --bundler`
+```
+    gem install bundler
+    bundle update --bundler
+```
